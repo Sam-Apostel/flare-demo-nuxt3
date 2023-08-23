@@ -1,0 +1,21 @@
+{
+  "name": "flare-demo-nuxt3",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@flareapp/vite-plugin-sourcemap-uploader": "^1.0.2",
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@types/node": "^18.17.3",
+    "nuxt": "^3.6.5"
+  },
+  "dependencies": {
+    "@flareapp/flare-client": "^3.0.5",
+    "@flareapp/flare-vue": "^3.0.5"
+  }
+}
